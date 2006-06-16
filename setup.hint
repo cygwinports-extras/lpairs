@@ -1,0 +1,4 @@
+category: Games
+requires: cygwin libSDL xorg-x11-base
+sdesc: "SDL memory game"
+ldesc: "SDL memory game"

@@ -1,0 +1,91 @@
+lpairs
+------------------------------------------
+SDL memory game
+
+Runtime requirements:
+  libSDL-1.2.9-1
+  xorg-x11-base-6.8.2.0-1
+
+Build requirements:
+  cygwin-1.5.18-1
+  autoconf2.5-2.59-3
+  automake1.9-1.9.6-1
+  binutils-20050610-1
+  gawk-3.1.5-2
+  gcc-core-3.4.4-1
+  make-3.80-1
+  sed-4.1.4-1
+  libSDL-devel-1.2.9-1
+
+Canonical website:
+  http://lgames.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/lgames/
+
+-------------------------------------------
+
+Build instructions:
+  unpack lpairs-1.0.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  ./lpairs-1.0.1-X.sh all
+
+This will create:
+  /usr/src/lpairs-1.0.1-X-src.tar.bz2
+  /usr/src/lpairs-1.0.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/lpairs.exe
+  /usr/share/doc/Cygwin/lpairs-1.0.1.README
+  /usr/share/doc/lpairs-1.0.1/AUTHORS
+  /usr/share/doc/lpairs-1.0.1/ChangeLog
+  /usr/share/doc/lpairs-1.0.1/COPYING
+  /usr/share/doc/lpairs-1.0.1/INSTALL
+  /usr/share/doc/lpairs-1.0.1/README
+  /usr/share/doc/lpairs-1.0.1/TODO
+  /usr/share/games/lpairs/gfx/0.bmp
+  /usr/share/games/lpairs/gfx/1.bmp
+  /usr/share/games/lpairs/gfx/10.bmp
+  /usr/share/games/lpairs/gfx/11.bmp
+  /usr/share/games/lpairs/gfx/12.bmp
+  /usr/share/games/lpairs/gfx/13.bmp
+  /usr/share/games/lpairs/gfx/14.bmp
+  /usr/share/games/lpairs/gfx/15.bmp
+  /usr/share/games/lpairs/gfx/16.bmp
+  /usr/share/games/lpairs/gfx/17.bmp
+  /usr/share/games/lpairs/gfx/18.bmp
+  /usr/share/games/lpairs/gfx/19.bmp
+  /usr/share/games/lpairs/gfx/2.bmp
+  /usr/share/games/lpairs/gfx/3.bmp
+  /usr/share/games/lpairs/gfx/4.bmp
+  /usr/share/games/lpairs/gfx/5.bmp
+  /usr/share/games/lpairs/gfx/6.bmp
+  /usr/share/games/lpairs/gfx/7.bmp
+  /usr/share/games/lpairs/gfx/8.bmp
+  /usr/share/games/lpairs/gfx/9.bmp
+  /usr/share/games/lpairs/gfx/back.bmp
+  /usr/share/games/lpairs/gfx/button.bmp
+  /usr/share/games/lpairs/gfx/f_white.bmp
+  /usr/share/games/lpairs/gfx/f_yellow.bmp
+  /usr/share/games/lpairs/gfx/logo.bmp
+  /usr/share/games/lpairs/gfx/stan_font.bmp
+  /usr/share/games/lpairs/gfx/title.bmp
+  /usr/share/games/lpairs/sound/click.wav
+  /usr/share/games/lpairs/sound/fail.wav
+  /usr/share/games/lpairs/sound/remove.wav
+
+------------------
+
+Port Notes:
+
+----- version 1.0.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
