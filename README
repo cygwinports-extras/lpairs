@@ -3,51 +3,54 @@ lpairs
 SDL memory game
 
 Runtime requirements:
-  libSDL-1.2.9-1
-  xorg-x11-base-6.8.2.0-1
+  cygwin-1.5.24-2
+  libSDL12-1.2.11-1
+  libintl8-0.15-1
 
 Build requirements:
-  cygwin-1.5.18-1
-  autoconf2.5-2.59-3
-  automake1.9-1.9.6-1
-  binutils-20050610-1
-  gawk-3.1.5-2
-  gcc-core-3.4.4-1
-  make-3.80-1
-  sed-4.1.4-1
-  libSDL-devel-1.2.9-1
+(besides corresponding devel packages)
+  cygwin-1.5.24-2
+  autoconf2.5-2.61-1
+  automake1.9-1.9.6-2
+  binutils-20060817-1
+  cygport-0.2.11-1
+  gawk-3.1.5-4
+  gcc-core-3.4.4-3
+  make-3.81-1
+  sed-4.1.5-2
 
 Canonical website:
   http://lgames.sourceforge.net/
 
 Canonical download:
-  http://prdownloads.sourceforge.net/lgames/
+  http://downloads.sourceforge.net/lgames/
 
 -------------------------------------------
 
 Build instructions:
-  unpack lpairs-1.0.1-X-src.tar.bz2
+  unpack lpairs-1.0.2-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  ./lpairs-1.0.1-X.sh all
+  cygport ./lpairs-1.0.2-X.cygport all
 
 This will create:
-  /usr/src/lpairs-1.0.1-X-src.tar.bz2
-  /usr/src/lpairs-1.0.1-X.tar.bz2
+  /usr/src/lpairs-1.0.2-X-src.tar.bz2
+  /usr/src/lpairs-1.0.2-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/lpairs.exe
-  /usr/share/doc/Cygwin/lpairs-1.0.1.README
-  /usr/share/doc/lpairs-1.0.1/AUTHORS
-  /usr/share/doc/lpairs-1.0.1/ChangeLog
-  /usr/share/doc/lpairs-1.0.1/COPYING
-  /usr/share/doc/lpairs-1.0.1/INSTALL
-  /usr/share/doc/lpairs-1.0.1/README
-  /usr/share/doc/lpairs-1.0.1/TODO
+  /usr/share/doc/Cygwin/lpairs-1.0.2.README
+  /usr/share/doc/lpairs-1.0.2/ABOUT-NLS
+  /usr/share/doc/lpairs-1.0.2/AUTHORS
+  /usr/share/doc/lpairs-1.0.2/COPYING
+  /usr/share/doc/lpairs-1.0.2/ChangeLog
+  /usr/share/doc/lpairs-1.0.2/INSTALL
+  /usr/share/doc/lpairs-1.0.2/README
+  /usr/share/doc/lpairs-1.0.2/TODO
   /usr/share/games/lpairs/gfx/0.bmp
   /usr/share/games/lpairs/gfx/1.bmp
   /usr/share/games/lpairs/gfx/10.bmp
@@ -78,10 +81,14 @@ Files included in the binary package:
   /usr/share/games/lpairs/sound/click.wav
   /usr/share/games/lpairs/sound/fail.wav
   /usr/share/games/lpairs/sound/remove.wav
+  /usr/share/locale/de/LC_MESSAGES/lpairs.mo
 
 ------------------
 
 Port Notes:
+
+----- version 1.0.2-1 -----
+Version bump.
 
 ----- version 1.0.1-1 -----
 Initial release for Cygwin.
