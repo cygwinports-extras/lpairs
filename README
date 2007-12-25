@@ -4,7 +4,7 @@ SDL memory game
 
 Runtime requirements:
   cygwin-1.5.24-2
-  libSDL12-1.2.11-1
+  libSDL12-1.2.12-1
   libintl8-0.15-1
 
 Build requirements:
@@ -13,7 +13,7 @@ Build requirements:
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
   binutils-20060817-1
-  cygport-0.2.11-1
+  cygport-0.3.7-1
   gawk-3.1.5-4
   gcc-core-3.4.4-3
   make-3.81-1
@@ -28,29 +28,29 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack lpairs-1.0.2-X-src.tar.bz2
+  unpack lpairs-1.0.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./lpairs-1.0.2-X.cygport all
+  cygport ./lpairs-1.0.3-X.cygport all
 
 This will create:
-  /usr/src/lpairs-1.0.2-X-src.tar.bz2
-  /usr/src/lpairs-1.0.2-X.tar.bz2
+  /usr/src/lpairs-1.0.3-X-src.tar.bz2
+  /usr/src/lpairs-1.0.3-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/lpairs.exe
-  /usr/share/doc/Cygwin/lpairs-1.0.2.README
-  /usr/share/doc/lpairs-1.0.2/ABOUT-NLS
-  /usr/share/doc/lpairs-1.0.2/AUTHORS
-  /usr/share/doc/lpairs-1.0.2/COPYING
-  /usr/share/doc/lpairs-1.0.2/ChangeLog
-  /usr/share/doc/lpairs-1.0.2/INSTALL
-  /usr/share/doc/lpairs-1.0.2/README
-  /usr/share/doc/lpairs-1.0.2/TODO
+  /usr/share/doc/Cygwin/lpairs-1.0.3.README
+  /usr/share/doc/lpairs-1.0.3/ABOUT-NLS
+  /usr/share/doc/lpairs-1.0.3/AUTHORS
+  /usr/share/doc/lpairs-1.0.3/COPYING
+  /usr/share/doc/lpairs-1.0.3/ChangeLog
+  /usr/share/doc/lpairs-1.0.3/INSTALL
+  /usr/share/doc/lpairs-1.0.3/README
+  /usr/share/doc/lpairs-1.0.3/TODO
   /usr/share/games/lpairs/gfx/0.bmp
   /usr/share/games/lpairs/gfx/1.bmp
   /usr/share/games/lpairs/gfx/10.bmp
@@ -86,6 +86,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.0.3-1 -----
+Version bump.
 
 ----- version 1.0.2-1 -----
 Version bump.
