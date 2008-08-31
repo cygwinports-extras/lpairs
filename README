@@ -3,19 +3,19 @@ lpairs
 SDL memory game
 
 Runtime requirements:
-  cygwin-1.5.24-2
-  libSDL12-1.2.12-1
+  cygwin-1.5.25-15
+  libSDL12-1.2.13-1
   libintl8-0.15-1
 
 Build requirements:
 (besides corresponding devel packages)
-  cygwin-1.5.24-2
   autoconf2.5-2.61-1
   automake1.9-1.9.6-2
-  binutils-20060817-1
-  cygport-0.3.7-1
-  gawk-3.1.5-4
+  binutils-20080624-2
+  cygport-0.4.0-1
+  gawk-3.1.6-1
   gcc-core-3.4.4-3
+  gettext-devel-0.15-1
   make-3.81-1
   sed-4.1.5-2
 
@@ -28,29 +28,28 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack lpairs-1.0.3-X-src.tar.bz2
+  unpack lpairs-1.0.4-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./lpairs-1.0.3-X.cygport all
+  cygport ./lpairs-1.0.4-X.cygport all
 
 This will create:
-  /usr/src/lpairs-1.0.3-X-src.tar.bz2
-  /usr/src/lpairs-1.0.3-X.tar.bz2
+  /usr/src/lpairs-1.0.4-X-src.tar.bz2
+  /usr/src/lpairs-1.0.4-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
   /usr/bin/lpairs.exe
-  /usr/share/doc/Cygwin/lpairs-1.0.3.README
-  /usr/share/doc/lpairs-1.0.3/ABOUT-NLS
-  /usr/share/doc/lpairs-1.0.3/AUTHORS
-  /usr/share/doc/lpairs-1.0.3/COPYING
-  /usr/share/doc/lpairs-1.0.3/ChangeLog
-  /usr/share/doc/lpairs-1.0.3/INSTALL
-  /usr/share/doc/lpairs-1.0.3/README
-  /usr/share/doc/lpairs-1.0.3/TODO
+  /usr/share/doc/lpairs-1.0.4/ABOUT-NLS
+  /usr/share/doc/lpairs-1.0.4/AUTHORS
+  /usr/share/doc/lpairs-1.0.4/COPYING
+  /usr/share/doc/lpairs-1.0.4/ChangeLog
+  /usr/share/doc/lpairs-1.0.4/INSTALL
+  /usr/share/doc/lpairs-1.0.4/README
+  /usr/share/doc/lpairs-1.0.4/TODO
   /usr/share/games/lpairs/gfx/0.bmp
   /usr/share/games/lpairs/gfx/1.bmp
   /usr/share/games/lpairs/gfx/10.bmp
@@ -75,7 +74,6 @@ Files included in the binary package:
   /usr/share/games/lpairs/gfx/button.bmp
   /usr/share/games/lpairs/gfx/f_white.bmp
   /usr/share/games/lpairs/gfx/f_yellow.bmp
-  /usr/share/games/lpairs/gfx/logo.bmp
   /usr/share/games/lpairs/gfx/stan_font.bmp
   /usr/share/games/lpairs/gfx/title.bmp
   /usr/share/games/lpairs/sound/click.wav
@@ -86,6 +84,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 1.0.4-1 -----
+Version bump.
 
 ----- version 1.0.3-1 -----
 Version bump.

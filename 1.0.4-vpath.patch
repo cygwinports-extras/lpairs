@@ -1,0 +1,19 @@
+--- origsrc/lpairs-1.0.4/lpairs/Makefile.am	2008-08-31 17:05:19.057270000 -0500
++++ src/lpairs-1.0.4/lpairs/Makefile.am	2008-08-31 17:08:10.368673600 -0500
+@@ -26,12 +26,12 @@
+ 	$(mkinstalldirs) $(DESTDIR)$(inst_dir)/gfx
+ 	$(mkinstalldirs) $(DESTDIR)$(inst_dir)/sound
+ #graphics
+-	@for file in gfx/*.bmp; do\
+-	  $(INSTALL_DATA) $$file $(DESTDIR)$(inst_dir)/$$file;\
++	@for file in $(srcdir)/gfx/*.bmp; do\
++	  $(INSTALL_DATA) $$file $(DESTDIR)$(inst_dir)/gfx/;\
+ 	done
+ #sounds
+-	@for file in sound/*.wav; do\
+-	  $(INSTALL_DATA) $$file $(DESTDIR)$(inst_dir)/$$file;\
++	@for file in $(srcdir)/sound/*.wav; do\
++	  $(INSTALL_DATA) $$file $(DESTDIR)$(inst_dir)/sound/;\
+ 	done
+ 
+ uninstall-local:
