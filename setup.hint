@@ -1,4 +1,4 @@
 category: Games
-requires: cygwin libSDL12 libintl8
+requires: libSDL12 libintl8
 sdesc: "SDL memory game"
 ldesc: "SDL memory game"
