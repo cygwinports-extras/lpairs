@@ -1,4 +1,4 @@
 category: Games
-requires: libSDL12 libintl8
+requires: libSDL1.2_0 libintl8
 sdesc: "SDL memory game"
 ldesc: "SDL memory game"
