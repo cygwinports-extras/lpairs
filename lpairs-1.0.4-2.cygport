@@ -1,8 +1,0 @@
-DESCRIPTION="SDL memory game"
-HOMEPAGE="http://lgames.sourceforge.net/"
-SRC_URI="mirror://sourceforge/lgames/${P}.tar.gz"
-PATCH_URI="1.0.4-vpath.patch"
-
-DISTCLEANFILES="acinclude.m4"
-
-LIBS="-lintl"
